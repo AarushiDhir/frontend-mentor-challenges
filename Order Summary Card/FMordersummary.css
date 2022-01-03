@@ -1,0 +1,97 @@
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color:#e0e8ff;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+#ordersummary{
+    margin: auto;
+    width: 30%;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#heroimg{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+
+h1{
+    font-size: 22px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+#component{
+    padding: 5%;
+    text-align: center;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+#plan{
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 5%;
+    border-radius: 10px;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxes{
+    padding: 3%;
+}
+
+#box1{
+    align-self: center;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+
+#changelink{
+    color:hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+button{
+    background: none;
+    border: none;
+    padding: 2% 25%;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+#paymentbtn{
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 8px;
+    margin: 2%;
+}
+
+#paymentbtn:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--box-shadow-color);
+    transform: translateY(-0.25em);
+    --box-shadow-color: hsl(245, 75%, 52%);
+}
+
+.attribution{
+    font-size: 11px; text-align: center; 
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
